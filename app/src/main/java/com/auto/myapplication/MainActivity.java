@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         wv = findViewById(R.id.wv);
-        wv.loadUrl("https://smartstore.naver.com/manbacksung?NaPm=ct%3Dkrvg40g8%7Cci%3Dcheckout%7Ctr%3Dds%7Ctrx%3D%7Chk%3D5e53258be17fb39fa0395ec552f9f233156a16e9");
+        wv.loadUrl("https://smartstore.naver.com/malangin");
         WebSettings webSettings = wv.getSettings();
         webSettings.setJavaScriptEnabled(true); // 웹페이지 자바스클비트 허용 여부
         webSettings.setSupportMultipleWindows(false); // 새창 띄우기 허용 여부
